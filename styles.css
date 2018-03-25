@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+	height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #F7F9F9;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%
+}
+
+.inputFile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.chart, #chart_div, #chart2_div, #chart3_div, #chart4_div {
+	width: 100%;
+}
+
+#floating-panel {
+	top: 10px;
+	left: 25%;
+	z-index: 5;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#header {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 100;
+}
+
+p {
+	padding-top: 15px;
+	padding-bottom: 50px;
+	padding-left: 75px;
+	padding-right: 75px;
+	font-size: 20px;
+}
+
+select {
+	background-color: white;
+	border-color: #E5E7E9;
+}
+
+option {
+	background-color: white;
+}
+
+#navigation {
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-color: #E5E7E9;
+}
+
+#header-con {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#header-con p{
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#question1, #question3 {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	border-color: #E5E7E9;
+}
+
+#question2 {
+	border-style: solid;
+	border-radius: 20px;
+	background: #FF6347;
+	color: white;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#question3 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+#predictResponseType{
+	color: white;
+	border-color: white;
+}
+
+#prDiv{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
