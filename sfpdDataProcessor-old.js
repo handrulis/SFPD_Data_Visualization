@@ -192,7 +192,7 @@ function drawChart2(zipcode) {
 
 	// Set chart options
 	var options = {
-		title : 'Number of Incidents Per Zipcode',
+		title : 'Number of Incidents Per Zip Code',
 		fontName: 'Josefin Sans',
 		titleTextStyle : {
 			fontSize : 20,
@@ -394,14 +394,14 @@ function drawChart4(scatterChartData) {
 	var data = google.visualization.arrayToDataTable(scatterChartData);
 	//chart display options
 	var options = {
-		title : 'Dispatch Time Across Zipcodes',
+		title : 'Dispatch Time Across Zip Codes',
 		fontName: 'Josefin Sans',
 		titleTextStyle : {
 			fontSize : 20,
 		},
 		'height' : 500,
 		hAxis : {
-			title : 'Zipcode',
+			title : 'Zip Code',
 		},
 		vAxis : {
 			title : 'Dispatch Time (seconds)',
